@@ -9,5 +9,4 @@ main:
 	addi $a0, $a0, 15
 	li $v0, 11
 	
-
 	jr $ra
