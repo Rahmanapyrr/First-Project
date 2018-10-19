@@ -8,6 +8,15 @@ main:
 	
 	addi $a0, $a0, -64
 	li $v0, 1
+	syscall
+	
+	addi $a0, $a0, 2
+	li $v0, 1
+	syscall
+	
+	addi $a0, $a0, 6
+	
+	
 	
 	la $a0, R
 	li $v0, 11
