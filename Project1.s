@@ -42,6 +42,13 @@ main:
 	li $v0, 11
 	syscall
 	
+	addi $a0, $a0, 67 
+	li $v0, 11
+	syscall
+	
+	addi $a0, $a0, 40
+	li $v0, 11
+	
 	
 	
 	la $a0, R
