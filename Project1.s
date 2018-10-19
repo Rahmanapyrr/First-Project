@@ -68,6 +68,13 @@ main:
 
 	addi $a0, $a0, -12
 	li $v0, 11
+	syscall
+
+	addi $a0, $a0, 3
+	li $v0, 11
+	syscall
+	
+	addi $a0, $a0, -56
 	
 	
 	
