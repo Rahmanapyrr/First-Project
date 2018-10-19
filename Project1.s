@@ -102,5 +102,13 @@ main:
 	addi $a0, $a0, -12
 	li $v0, 11
 	syscall
+	
+	addi $a0, $a0, 13
+	li $v0, 11
+	syscall
+	
+	addi $a0, $a0, -13
+	li $v0, 11
+	syscall
 
 	jr $ra
