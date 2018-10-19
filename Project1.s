@@ -28,6 +28,13 @@ main:
 	
 	addi $a0, $a0, -4
 	li $v0, 1
+	syscall
+
+	addi $a0, $a0, 5
+	li $v0, 1
+	syscall
+
+	addi $a0, $a0, -4
 	
 	
 	
