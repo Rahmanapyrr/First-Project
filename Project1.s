@@ -15,6 +15,12 @@ main:
 	syscall
 	
 	addi $a0, $a0, 6
+	li $v0, 1
+	syscall
+	
+	addi $a0, $a0, -7
+	li $v0, 1
+	syscall
 	
 	
 	
