@@ -83,11 +83,7 @@ main:
 	li $v0, 11
 	syscall
 	
-	
-	
-	
-	
-	la $a0, R
+	addi $a0, $a0, 50
 	li $v0, 11
 	syscall
 	
